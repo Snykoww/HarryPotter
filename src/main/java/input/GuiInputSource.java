@@ -9,7 +9,7 @@ public class GuiInputSource implements InputSource {
     @Override
     public String getInput() {
         try {
-            return queue.take();  // This will block until there is input in the queue
+            return queue.take();  
         } catch (InterruptedException e) {
             e.printStackTrace();
             return null;
