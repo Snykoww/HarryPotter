@@ -14,7 +14,7 @@ public class CustomOutputStream extends OutputStream {
 
     @Override
     public void write(int b) throws IOException {
-        // redirects data to the text area
+        
         Platform.runLater(() -> textArea.appendText(String.valueOf((char)b)));
     }
 }
