@@ -5,5 +5,5 @@ public class Basilisk extends Creature {
         super(name, healthPoints, damage);
     }
 
-    // Pas besoin de réimplémenter la méthode attack() ici, car elle est déjà définie dans la classe Creature.
+    
 }
